@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solid Rock Academy</title>
+  <style>
+    /* General body styles with image background */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('background.jpg');
+      background-size: cover;      /* Image covers whole screen */
+      background-position: center; /* Centers the image */
+      background-attachment: fixed; /* Stays in place when scrolling */
+      color: white;                /* Makes text visible */
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent header */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    section {
+      padding: 30px 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+      margin: 20px auto;
+      border-radius: 12px;
+      max-width: 1000px;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    /* Gallery */
+    .gallery {
+      text-align: center;
+    }
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 3px solid white;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Solid Rock Academy</h1>
+    <p>Knowledge, Discipline, Excellence</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Our School</h2>
+    <p>Solid Rock Academy is committed to providing quality education that builds character, discipline, and leadership in students. Our goal is to nurture every child’s potential in a safe and supportive environment.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>School Gallery</h2>
+    <img src="school1.jpg" alt="School Image 1">
+    <img src="school2.jpg" alt="School Image 2">
+    <img src="school3.jpg" alt="School Image 3">
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><b>Phone:</b> 0551858471</p>
+    <p><b>Email:</b> info@solidrockacademy.com</p>
+    <p><b>Location:</b> Jirapa, Ghana</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Solid Rock Academy</p>
+  </footer>
+
+</body>
+</html>
